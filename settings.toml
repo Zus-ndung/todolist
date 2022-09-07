@@ -1,0 +1,25 @@
+[default]
+DATABASE_URI = "default"
+DATABASE_HOST = "127.0.0.1"
+DATABASE_USER = "root"
+DATABASE_PASSWORD = "root"
+
+[development]
+DATABASE_TYPE = "postgresql"
+DATABASE_URI = "dev"
+DATABASE_HOST = "postgres_db"
+DATABASE_USER = "root"
+DATABASE_PASSWORD = "root"
+DATABASE_NAME= "todo"
+
+    [development.v1]
+    DATABASE_URI = "dev"
+    DATABASE_HOST = "127.0.0.1"
+    DATABASE_USER = "root"
+    DATABASE_PASSWORD = "root"    
+
+[production]
+DATABASE_URI = "production"
+DATABASE_HOST = "127.0.0.1"
+DATABASE_USER = "root"
+DATABASE_PASSWORD = "root"
