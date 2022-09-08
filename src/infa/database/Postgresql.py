@@ -7,10 +7,10 @@ class Postgresql(BaseStorage):
         super().__init__()
         self.db = db
 
-    def save(self):
-        self.db.add(self)
-        self.db.commit()
-        return self.id
+    def save(self, object):
+        self.db.session.add(object)
+        self.db.session.commit()
+        return object
 
     def init_db(self, app):
         try:

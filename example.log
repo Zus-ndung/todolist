@@ -1,0 +1,14 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+INFO:werkzeug:172.21.0.1 - - [08/Sep/2022 09:30:36] "GET /todo/ HTTP/1.1" 200 -
+INFO:werkzeug:172.21.0.1 - - [08/Sep/2022 09:34:23] "[32mGET /todo HTTP/1.1[0m" 308 -
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
+INFO:werkzeug:172.21.0.1 - - [08/Sep/2022 09:34:23] "GET /todo/ HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in '/app/src/todo/usecase.py', reloading
+getOne DEBUG
+_log INFO
