@@ -1,14 +1,38 @@
-DEBUG:root:This message should go to the log file
-INFO:root:So should this
-WARNING:root:And this, too
-ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
-INFO:werkzeug:172.21.0.1 - - [08/Sep/2022 09:30:36] "GET /todo/ HTTP/1.1" 200 -
-INFO:werkzeug:172.21.0.1 - - [08/Sep/2022 09:34:23] "[32mGET /todo HTTP/1.1[0m" 308 -
-DEBUG:root:This message should go to the log file
-INFO:root:So should this
-WARNING:root:And this, too
-ERROR:root:And non-ASCII stuff, too, like Øresund and Malmö
-INFO:werkzeug:172.21.0.1 - - [08/Sep/2022 09:34:23] "GET /todo/ HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in '/app/src/todo/usecase.py', reloading
-getOne DEBUG
-_log INFO
+2022-09-09 06:44:23,556 - file - ERROR - nguyen van dung
+2022-09-09 06:44:43,073 - file - ERROR - nguyen van dung
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - select current_schema()
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo
+09/09/2022 07:50:01 - sqlalchemy.engine.Engine - INFO - [generated in 0.00176s] {}
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - select current_schema()
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo
+09/09/2022 07:51:35 - sqlalchemy.engine.Engine - INFO - [generated in 0.00186s] {}
+09/09/2022 07:52:59 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+09/09/2022 07:52:59 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo 
+WHERE todo.id = %(pk_1)s
+09/09/2022 07:52:59 - sqlalchemy.engine.Engine - INFO - [generated in 0.00044s] {'pk_1': 2}09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - select current_schema()
+09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo
+09/09/2022 10:25:15 - sqlalchemy.engine.Engine - INFO - [generated in 0.00055s] {}
+09/09/2022 10:25:15 - console - WARNING - Ok
+ 

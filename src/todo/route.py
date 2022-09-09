@@ -1,17 +1,19 @@
 from flask import Blueprint, request, jsonify
 from src.infa.database.BaseStorage import BaseStorage
+from src.infa.logging.BaseLogging import BaseLogging
 from src.todo.usecase import ToDoUseCase
 from flask_api import status
 
 todoRoute = Blueprint("todo", __name__)
 
 
-def create_route(database=BaseStorage):
+def create_route(database=BaseStorage, logging=BaseLogging):
     toDoUseCase = ToDoUseCase(database)
 
     @todoRoute.get("/")
     def handleGetAll():
         todoLists = toDoUseCase.getAll()
+        logging.warning("Ok")
         return jsonify(todoLists), status.HTTP_200_OK
 
     @todoRoute.post("/")

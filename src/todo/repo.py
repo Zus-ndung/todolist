@@ -8,6 +8,7 @@ class ToDoRepo():
 
     def getAllTodoList(self):
         todoLists = Todo.query.all()
+        
         return todoLists
 
     def createToDo(self, name, isDone):

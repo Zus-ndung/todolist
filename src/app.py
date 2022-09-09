@@ -1,6 +1,7 @@
 from flask_api import FlaskAPI
 from dynaconf import FlaskDynaconf
 from src.infa.database.Postgresql import Postgresql
+from src.infa.logging.Logging import Logging
 from src.todo.route import create_route
 from flask_sqlalchemy import SQLAlchemy
 
@@ -16,8 +17,14 @@ def create_app():
         postgresql.init_db(app=app)
     else:
         pass
+
+    # create Logger
+
+    with app.app_context():
+        logging = Logging()
+
     # register route of module
-    todoRoute = create_route(postgresql)
+    todoRoute = create_route(postgresql, logging)
     app.register_blueprint(todoRoute, url_prefix="/todo")
 
     app.app_context().push()

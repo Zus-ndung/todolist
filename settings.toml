@@ -13,6 +13,10 @@ DATABASE_HOST = "postgres_db"
 DATABASE_USER = "root"
 DATABASE_PASSWORD = "root"
 DATABASE_NAME= "todo"
+LOGGER = "console"
+LOGGING_FILE = "logging.yaml"
+TYPE_LOGGING_FILE = "yaml"
+SQLALCHEMY_ECHO = 1
 
 [production]
 DATABASE_URI = "production"
