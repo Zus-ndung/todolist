@@ -32,4 +32,26 @@ def create_route(database=BaseStorage, logging=BaseLogging):
         todo = toDoUseCase.getOne(id=idToDo)
         return jsonify(todo), status.HTTP_200_OK
 
+    @todoRoute.delete("/<id>")
+    def handleDelete(id):
+        idToDo = int(id)
+        isDeleted = toDoUseCase.remove(id=idToDo)
+        if isDeleted:
+            message = "Delete resource successfully"
+            return jsonify({"message": message}), status.HTTP_200_OK
+        else:
+            message = "Cann't delete"
+            return jsonify({"message": message}), status.HTTP_204_NO_CONTENT
+
+    @todoRoute.put("/<id>")
+    def handleRemove(id):
+        idTodo = int(id)
+        dataForm = request.data
+        isUpdated = toDoUseCase.update(id=idTodo, data=dataForm)
+        if isUpdated:
+            message = "Update resource successfully"
+            return jsonify({"message": message}), status.HTTP_200_OK
+        else:
+            message = "Cann't update resource"
+            return jsonify({"message": message}), status.HTTP_204_NO_CONTENT
     return todoRoute

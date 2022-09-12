@@ -1,7 +1,13 @@
 class BaseStorage():
 
-    def save():
+    def save(self, object):
         pass
 
     def init_db():
+        pass
+
+    def remove(self, record):
+        pass
+
+    def update(self, record, data):
         pass

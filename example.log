@@ -1,11 +1,42 @@
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - select current_schema()
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
-FROM todo
-12/09/2022 08:28:52 - sqlalchemy.engine.Engine - INFO - [generated in 0.00040s] {}
-12/09/2022 08:28:52 - queueLogger - WARNING - hello dung ne
+12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
+12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - select current_schema()
+12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
+12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
+12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo 
+WHERE todo.id = %(pk_1)s
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - [generated in 0.00033s] {'pk_1': 20}
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo 
+WHERE todo.id = %(pk_1)s
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - [cached since 0.007163s ago] {'pk_1': 20}
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - COMMIT
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo 
+WHERE todo.id = %(pk_1)s
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - [generated in 0.00032s] {'pk_1': 20}
+12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo 
+WHERE todo.id = %(pk_1)s
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - [cached since 32.93s ago] {'pk_1': 22}
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo 
+WHERE todo.id = %(pk_1)s
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - [cached since 32.94s ago] {'pk_1': 22}
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - UPDATE todo SET name=%(name)s WHERE todo.id = %(todo_id)s
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - [generated in 0.00052s] {'name': 'study japan anime vietsub', 'todo_id': 22}
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - COMMIT
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
+FROM todo 
+WHERE todo.id = %(pk_1)s
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - [cached since 32.93s ago] {'pk_1': 22}
+12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - ROLLBACK

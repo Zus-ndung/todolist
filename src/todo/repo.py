@@ -6,16 +6,30 @@ class ToDoRepo():
     def __init__(self, database: BaseStorage) -> None:
         self.database = database
 
-    def getAllTodoList(self):
+    def getAll(self):
         todoLists = Todo.query.all()
-        
+
         return todoLists
 
-    def createToDo(self, name, isDone):
+    def create(self, name, isDone):
         newToDo = Todo(name=name, isDone=isDone)
         newToDo = self.database.save(newToDo)
         return newToDo
 
-    def getOneToDo(self, id):
+    def getOne(self, id):
         toDo = Todo.query.get_or_404(id)
         return toDo
+
+    def remove(self, id):
+        toDo = Todo.query.get(id)
+        if toDo is not None:
+            return self.database.remove(toDo)
+        else:
+            return False
+
+    def update(self, id, data):
+        toDo = Todo.query.get(id)
+        if toDo is not None:
+            return self.database.update(toDo, data)
+        else:
+            return False

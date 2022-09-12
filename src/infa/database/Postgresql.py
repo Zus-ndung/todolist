@@ -19,3 +19,17 @@ class Postgresql(BaseStorage):
             print(error)
         else:
             print("Connect to database successfully")
+
+    def remove(self, record):
+        record = self.db.session.get(type(record), record.id)
+        self.db.session.delete(record)
+        self.db.session.commit()
+        return True
+
+    def update(self, record, data):
+        toDo = self.db.session.get(type(record), record.id)
+        if toDo is not None:
+            for k, v in data.items():
+                setattr(toDo, k, v)
+        self.db.session.commit()
+        return toDo
