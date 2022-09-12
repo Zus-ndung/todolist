@@ -4,6 +4,7 @@ from src.infa.logging.BaseLogging import BaseLogging
 from src.todo.usecase import ToDoUseCase
 from flask_api import status
 
+
 todoRoute = Blueprint("todo", __name__)
 
 
@@ -13,7 +14,9 @@ def create_route(database=BaseStorage, logging=BaseLogging):
     @todoRoute.get("/")
     def handleGetAll():
         todoLists = toDoUseCase.getAll()
-        logging.warning("Ok")
+
+        logging.warning("hello dung ne")
+
         return jsonify(todoLists), status.HTTP_200_OK
 
     @todoRoute.post("/")

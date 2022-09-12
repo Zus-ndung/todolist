@@ -2,7 +2,6 @@ from src.infa.database.BaseStorage import BaseStorage
 from src.todo.dto import convertListObjectToJson, convertObjectToJson
 from src.todo.repo import ToDoRepo
 
-
 class ToDoUseCase:
 
     def __init__(self, database: BaseStorage) -> None:
