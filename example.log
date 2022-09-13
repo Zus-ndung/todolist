@@ -1,42 +1,248 @@
-12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - select pg_catalog.version()
-12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
-12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - select current_schema()
-12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
-12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings
-12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - [raw sql] {}
-12/09/2022 09:41:09 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
-FROM todo 
-WHERE todo.id = %(pk_1)s
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - [generated in 0.00033s] {'pk_1': 20}
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
-FROM todo 
-WHERE todo.id = %(pk_1)s
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - [cached since 0.007163s ago] {'pk_1': 20}
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - COMMIT
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
-FROM todo 
-WHERE todo.id = %(pk_1)s
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - [generated in 0.00032s] {'pk_1': 20}
-12/09/2022 09:41:10 - sqlalchemy.engine.Engine - INFO - ROLLBACK
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
-FROM todo 
-WHERE todo.id = %(pk_1)s
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - [cached since 32.93s ago] {'pk_1': 22}
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
-FROM todo 
-WHERE todo.id = %(pk_1)s
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - [cached since 32.94s ago] {'pk_1': 22}
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - UPDATE todo SET name=%(name)s WHERE todo.id = %(todo_id)s
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - [generated in 0.00052s] {'name': 'study japan anime vietsub', 'todo_id': 22}
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - COMMIT
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - BEGIN (implicit)
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - SELECT todo.id AS todo_id, todo.name AS todo_name, todo."isDone" AS "todo_isDone" 
-FROM todo 
-WHERE todo.id = %(pk_1)s
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - [cached since 32.93s ago] {'pk_1': 22}
-12/09/2022 09:41:42 - sqlalchemy.engine.Engine - INFO - ROLLBACK
+[38;20m[2022-09-13 07:08:39,134] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:08:39,135] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:08:39,136] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:08:39,136] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:08:39,137] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:08:39,138] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:08:39,139] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:08:39,140] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:08:39,140] - sqlalchemy.engine.Engine - INFO - [generated in 0.00042s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:08:39,141] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:09:07,572] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:09:07,572] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:09:07,573] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:09:07,573] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:09:07,574] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:09:07,575] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:09:07,576] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:09:07,578] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:09:07,578] - sqlalchemy.engine.Engine - INFO - [generated in 0.00075s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:09:07,580] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:09:29,656] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:09:29,656] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:09:29,657] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:09:29,657] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:09:29,658] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:09:29,658] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:09:29,660] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:09:29,661] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:09:29,661] - sqlalchemy.engine.Engine - INFO - [generated in 0.00052s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:09:29,662] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:11:07,184] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:07,184] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:07,185] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:07,185] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:07,186] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:07,186] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:07,188] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:11:07,189] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:07,189] - sqlalchemy.engine.Engine - INFO - [generated in 0.00067s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:07,191] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:11:30,282] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:30,282] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:30,283] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:30,283] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:30,284] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:30,284] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:30,285] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:11:30,285] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:30,286] - sqlalchemy.engine.Engine - INFO - [generated in 0.00029s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:30,286] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:11:35,428] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:35,428] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:35,429] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:35,429] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:35,430] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:35,430] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:35,431] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:11:35,431] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:11:35,431] - sqlalchemy.engine.Engine - INFO - [generated in 0.00024s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:11:35,432] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:12:18,268] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:12:18,268] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:12:18,270] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:12:18,270] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:12:18,271] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:12:18,271] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:12:18,272] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:12:18,273] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:12:18,274] - sqlalchemy.engine.Engine - INFO - [generated in 0.00053s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:12:18,275] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:12:27,563] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:12:27,563] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:12:27,565] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:12:27,565] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:12:27,565] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:12:27,566] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:12:27,567] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:12:27,568] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:12:27,569] - sqlalchemy.engine.Engine - INFO - [generated in 0.00082s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:12:27,571] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:13:42,154] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:13:42,154] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:13:42,155] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:13:42,156] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:13:42,158] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:13:42,160] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:13:42,162] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:13:42,163] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:13:42,163] - sqlalchemy.engine.Engine - INFO - [generated in 0.00032s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:13:42,165] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:13:45,077] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:13:45,077] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:13:45,078] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:13:45,078] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:13:45,080] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:13:45,080] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:13:45,081] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:13:45,082] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:13:45,083] - sqlalchemy.engine.Engine - INFO - [generated in 0.00052s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:13:45,085] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:14:29,447] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:29,447] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:29,448] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:29,449] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:29,449] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:29,449] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:29,450] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:14:29,450] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:29,451] - sqlalchemy.engine.Engine - INFO - [generated in 0.00030s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:29,451] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:14:33,375] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:33,375] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:33,376] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:33,376] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:33,377] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:33,377] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:33,378] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:14:33,379] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:33,380] - sqlalchemy.engine.Engine - INFO - [generated in 0.00054s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:33,381] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:14:50,080] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:50,080] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:50,081] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:50,081] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:50,082] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:50,082] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:50,083] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:14:50,084] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:50,084] - sqlalchemy.engine.Engine - INFO - [generated in 0.00057s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:50,086] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[33;20m[2022-09-13 07:14:50,085] - queueLogger - WARNING - Connect to database successfully (Logging.py:110)[0m
+[38;20m[2022-09-13 07:14:57,315] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:57,315] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:57,317] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:57,317] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:57,318] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:57,319] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:57,320] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:14:57,321] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:14:57,322] - sqlalchemy.engine.Engine - INFO - [generated in 0.00100s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:14:57,324] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:15:04,613] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:15:04,614] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:15:04,615] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:15:04,615] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:15:04,616] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:15:04,616] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:15:04,617] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:15:04,618] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:15:04,618] - sqlalchemy.engine.Engine - INFO - [generated in 0.00046s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:15:04,619] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:15:29,635] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:15:29,636] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:15:29,637] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:15:29,637] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:15:29,638] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:15:29,638] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:15:29,639] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:15:29,640] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:15:29,640] - sqlalchemy.engine.Engine - INFO - [generated in 0.00057s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:15:29,642] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:18:43,498] - sqlalchemy.engine.Engine - INFO - select pg_catalog.version() (base.py:1853)[0m
+[38;20m[2022-09-13 07:18:43,498] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:18:43,499] - sqlalchemy.engine.Engine - INFO - select current_schema() (base.py:1853)[0m
+[38;20m[2022-09-13 07:18:43,500] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:18:43,500] - sqlalchemy.engine.Engine - INFO - show standard_conforming_strings (base.py:1853)[0m
+[38;20m[2022-09-13 07:18:43,500] - sqlalchemy.engine.Engine - INFO - [raw sql] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:18:43,501] - sqlalchemy.engine.Engine - INFO - BEGIN (implicit) (base.py:1027)[0m
+[38;20m[2022-09-13 07:18:43,501] - sqlalchemy.engine.Engine - INFO - SELECT 1 (base.py:1853)[0m
+[38;20m[2022-09-13 07:18:43,502] - sqlalchemy.engine.Engine - INFO - [generated in 0.00028s] {} (base.py:1858)[0m
+[38;20m[2022-09-13 07:18:43,502] - sqlalchemy.engine.Engine - INFO - ROLLBACK (base.py:1055)[0m
+[38;20m[2022-09-13 07:18:43,502] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:19:51,797] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:19:56,828] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:20:20,887] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:20:21,465] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:20:38,276] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:20:43,316] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:21:24,692] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:31:55,468] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:31:56,023] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:33:02,923] - queueLogger - INFO - Connect to database successfully (Logging.py:106)[0m
+[38;20m[2022-09-13 07:33:04,898] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 07:34:42,151] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 07:36:23,029] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 07:36:43,959] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:09:40,797] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:11:07,671] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:13:39,650] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:13:45,600] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:13:51,062] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:14:32,546] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:14:39,610] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:15:23,926] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:16:02,036] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:16:10,267] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:16:20,555] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:16:26,660] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:18:07,482] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:18:12,839] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:18:17,167] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:21:12,603] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:21:25,086] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:24:02,106] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:25:42,399] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:29:32,077] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:32:01,511] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:32:06,635] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:32:15,922] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:49:23,574] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 09:50:16,302] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:03:11,604] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-13 10:03:12,914] - queueLogger - WARNING - hello dung ne (Logging.py:117)[0m
+[38;20m[2022-09-13 10:07:31,590] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:07:36,598] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:08:19,907] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:08:21,801] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:11:44,856] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:13:03,277] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:14:55,466] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:15:03,624] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:15:19,270] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:16:45,401] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:16:48,241] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:19:18,745] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:19:25,834] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:19:39,317] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:19:59,419] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:22:15,382] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:22:32,846] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:25:35,649] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:25:43,791] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:25:47,819] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:26:19,583] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:26:50,809] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:27:08,697] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:27:09,517] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:28:11,317] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:28:49,384] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:29:52,070] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:33:51,369] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:34:18,909] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:36:05,612] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:36:58,028] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:37:09,575] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:37:23,257] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:37:38,676] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:42:23,711] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m

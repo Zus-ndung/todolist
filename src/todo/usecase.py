@@ -4,7 +4,6 @@ from src.todo.repo import ToDoRepo
 
 
 class ToDoUseCase:
-
     def __init__(self, database: BaseStorage) -> None:
         self.repo = ToDoRepo(database=database)
 

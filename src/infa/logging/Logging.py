@@ -1,11 +1,13 @@
+import logging
+import logging.config
 from atexit import register
 from logging.handlers import QueueHandler, QueueListener
 from queue import Queue
-from src.infa.logging.BaseLogging import BaseLogging
-from flask import current_app
-import logging
-import logging.config
+
 import yaml
+from flask import current_app
+
+from src.infa.logging.BaseLogging import BaseLogging
 
 
 class CustomFormat:
@@ -23,7 +25,7 @@ class CustomFormat:
             logging.INFO: grey + format + reset,
             logging.WARNING: yellow + format + reset,
             logging.ERROR: red + format + reset,
-            logging.CRITICAL: bold_red + format + reset
+            logging.CRITICAL: bold_red + format + reset,
         }
 
     def format(self, record):
@@ -38,17 +40,17 @@ class CustomFilter(logging.Filter):
         return not record.getMessage().startswith("nolog")
 
 
-def _resolve_handlers(l):
-    if not isinstance(l, list):
-        return l
-    return [l[i] for i in range(len(l))]
+def _resolve_handlers(listHandlers):
+    if not isinstance(listHandlers, list):
+        return listHandlers
+    return [listHandlers[i] for i in range(len(listHandlers))]
 
 
 # create queue instace
 def _resolve_queue(q):
     if not isinstance(q, dict):
         return q
-    cname = q.pop('class')
+    cname = q.pop("class")
     klass = q.configurator.resolve(cname)
     kwargs = {k: q[k] for k in q if logging.config.valid_ident(k)}
     result = klass(**kwargs)
@@ -56,15 +58,21 @@ def _resolve_queue(q):
 
 
 class QueueListenerHandler(QueueHandler):
-
-    def __init__(self, handlers, respect_handler_level=False, auto_run=True, queue=Queue(-1)):
+    def __init__(
+        self,
+        handlers,
+        respect_handler_level=False,
+        auto_run=True,
+        queue=Queue(-1),
+        level=logging.DEBUG,
+    ):
         queue = _resolve_queue(queue)
         super().__init__(queue)
         handlers = _resolve_handlers(handlers)
+        self.setLevel(level=level)
         self._listener = QueueListener(
-            self.queue,
-            *handlers,
-            respect_handler_level=respect_handler_level)
+            self.queue, *handlers, respect_handler_level=respect_handler_level
+        )
         if auto_run:
             self.start()
             register(self.stop)

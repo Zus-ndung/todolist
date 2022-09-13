@@ -1,9 +1,13 @@
-from flask_api import FlaskAPI
+import sys
+
 from dynaconf import FlaskDynaconf
+from flask_api import FlaskAPI
+from flask_sqlalchemy import SQLAlchemy
+
+from src.execption.appException import AppException
 from src.infa.database.Postgresql import Postgresql
 from src.infa.logging.Logging import Logging
 from src.todo.route import create_route
-from flask_sqlalchemy import SQLAlchemy
 
 
 def create_app():
@@ -12,16 +16,26 @@ def create_app():
     FlaskDynaconf(app)
 
     db = SQLAlchemy()
-    if app.config["DATABASE_TYPE"] == "postgresql":
-        postgresql = Postgresql(db=db)
-        postgresql.init_db(app=app)
-    else:
-        pass
 
     # create Logger
-
     with app.app_context():
         logging = Logging()
+
+        if (
+            app.config["DATABASE_TYPE"] == "postgresql"
+            and app.config["SQLALCHEMY_DATABASE_URI"] is not None
+        ):
+            postgresql = Postgresql(db=db)
+            try:
+                postgresql.init_db(app=app)
+            except AppException as error:
+                logging.critical(message=error)
+                # sys.exit(-1)
+            else:
+                logging.info(message="Connect to database successfully")
+        else:
+            logging.critical(message="DATABASE_TYPE or DATABASE_URI isn't configured")
+            # sys.exit(-1)
 
     # register route of module
     todoRoute = create_route(postgresql, logging)
@@ -32,5 +46,5 @@ def create_app():
     return app
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     create_app()

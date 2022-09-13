@@ -1,8 +1,9 @@
-from src.todo.model import Todo
+from src.execption.ecode import NotFound
 from src.infa.database.BaseStorage import BaseStorage
+from src.todo.model import Todo
 
 
-class ToDoRepo():
+class ToDoRepo:
     def __init__(self, database: BaseStorage) -> None:
         self.database = database
 
@@ -25,7 +26,9 @@ class ToDoRepo():
         if toDo is not None:
             return self.database.remove(toDo)
         else:
-            return False
+            raise NotFound.warp(
+                error=None, message=f"Resource Todo - {id} wasn't existed"
+            ).setParams({"idToDo": id})
 
     def update(self, id, data):
         toDo = Todo.query.get(id)

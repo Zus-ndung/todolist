@@ -1,9 +1,10 @@
-from flask import Blueprint, request, jsonify
+from flask import Blueprint, jsonify, request
+from flask_api import status
+
+from src.execption.appException import Code
 from src.infa.database.BaseStorage import BaseStorage
 from src.infa.logging.BaseLogging import BaseLogging
 from src.todo.usecase import ToDoUseCase
-from flask_api import status
-
 
 todoRoute = Blueprint("todo", __name__)
 
@@ -22,8 +23,7 @@ def create_route(database=BaseStorage, logging=BaseLogging):
     @todoRoute.post("/")
     def handleCreateTodo():
         dataRequest = request.data
-        newToDo = toDoUseCase.create(
-            dataRequest["name"], isDone=dataRequest["isDone"])
+        newToDo = toDoUseCase.create(dataRequest["name"], isDone=dataRequest["isDone"])
         return jsonify(newToDo), status.HTTP_201_CREATED
 
     @todoRoute.get("/<id>")
@@ -35,16 +35,14 @@ def create_route(database=BaseStorage, logging=BaseLogging):
     @todoRoute.delete("/<id>")
     def handleDelete(id):
         idToDo = int(id)
-        isDeleted = toDoUseCase.remove(id=idToDo)
-        if isDeleted:
-            message = "Delete resource successfully"
-            return jsonify({"message": message}), status.HTTP_200_OK
-        else:
-            message = "Cann't delete"
-            return jsonify({"message": message}), status.HTTP_204_NO_CONTENT
+        try:
+            toDoUseCase.remove(id=idToDo)
+            return status.HTTP_204_NO_CONTENT
+        except Code as error:
+            return jsonify(error.convertToObject()), status.HTTP_404_NOT_FOUND
 
     @todoRoute.put("/<id>")
-    def handleRemove(id):
+    def handleUpdate(id):
         idTodo = int(id)
         dataForm = request.data
         isUpdated = toDoUseCase.update(id=idTodo, data=dataForm)
@@ -54,4 +52,5 @@ def create_route(database=BaseStorage, logging=BaseLogging):
         else:
             message = "Cann't update resource"
             return jsonify({"message": message}), status.HTTP_204_NO_CONTENT
+
     return todoRoute

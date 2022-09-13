@@ -19,13 +19,13 @@ filters:
 
 handlers:
   fileHandler:
-    formatter: simpleFormatter
+    formatter: customFormatter
     class: logging.FileHandler
     level: DEBUG
     filename: example.log
-    mode: w
+    # mode: w+
   consoleHandler:
-    formatter: simpleFormatter
+    formatter: customFormatter
     class: logging.StreamHandler
     level: DEBUG
     stream: ext://sys.stdout
@@ -45,12 +45,13 @@ loggers:
   console:
     handlers:
       - consoleHandler
-  sqlalchemy.engine:
-    handlers:
-      - fileHandler
-    qualname: sqlalchemy.engine
-    propagate: false
+  # sqlalchemy.engine:
+  #   handlers:
+  #     - fileHandler
+  #   qualname: sqlalchemy.engine
+  #   propagate: true
   queueLogger:
+    level: DEBUG
     handlers:
       - queueHandler
     propagate: false

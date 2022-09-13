@@ -9,4 +9,4 @@ class Todo(db.Model):
     isDone = db.Column(db.Boolean, nullable=False)
 
     def __repr__(self):
-        return 'Work: <%s>' % self.name
+        return "Work: <%s>" % self.name

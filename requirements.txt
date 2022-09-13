@@ -5,3 +5,7 @@ dynaconf==3.1.9
 Flask-SQLAlchemy
 flask-api
 pyyaml
+isort
+black
+flake8
+pre-commit

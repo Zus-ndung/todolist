@@ -1,5 +1,4 @@
-class BaseStorage():
-
+class BaseStorage:
     def save(self, object):
         pass
 
@@ -10,4 +9,7 @@ class BaseStorage():
         pass
 
     def update(self, record, data):
+        pass
+
+    def __isConnected(self):
         pass

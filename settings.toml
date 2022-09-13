@@ -23,3 +23,20 @@ DATABASE_URI = "production"
 DATABASE_HOST = "127.0.0.1"
 DATABASE_USER = "root"
 DATABASE_PASSWORD = "root"
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+)/
+'''
