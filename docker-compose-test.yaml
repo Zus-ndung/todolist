@@ -3,16 +3,15 @@ services:
   flask-server:
     build:
       context: .
-      dockerfile: ./script/Dockerfile
+      dockerfile: ./script/Dockerfile_test
 
-    container_name: "flask-server"
+    container_name: "flask-server-unittest"
     ports:
       - ${PORT}:${PORT}
     volumes:
       - ./:/app
-    # command: "flask --app www/server --debug run"
     networks:
-      - flask-test-network
+      - flask-test-network-test
 
   postgres_db:
     image: postgres
@@ -22,17 +21,15 @@ services:
       - POSTGRES_DB=${POSTGRES_DB}
       - PGDATA=/var/lib/postgresql/data/pgdata
     volumes:
-      - postgres:/var/lib/postgresql/data
+      -   postgres_unittest:/var/lib/postgresql/data
     networks:
-      - flask-test-network
+      - flask-test-network-test
     ports:
-      - 5432:5432
-
+      - 5433:5432
 
 networks:
-  flask-test-network:
+  flask-test-network-test:
     driver: bridge
 
 volumes:
-  postgres: {}
-  postgres_test: {}
+  postgres_unittest: {}

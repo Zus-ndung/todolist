@@ -1,4 +1,4 @@
-from src.execption.ecode import NotFound
+from src.execption.ecode import DatabaseNotResponse, NotFound
 from src.infa.database.BaseStorage import BaseStorage
 from src.todo.model import Todo
 
@@ -8,9 +8,11 @@ class ToDoRepo:
         self.database = database
 
     def getAll(self):
-        todoLists = Todo.query.all()
-
-        return todoLists
+        try:
+            todoLists = Todo.query.all()
+            return todoLists
+        except BaseException as error:
+            raise DatabaseNotResponse.warp(cause=error, message=None)
 
     def create(self, name, isDone):
         newToDo = Todo(name=name, isDone=isDone)
@@ -18,21 +20,26 @@ class ToDoRepo:
         return newToDo
 
     def getOne(self, id):
-        toDo = Todo.query.get_or_404(id)
+        try:
+            toDo = Todo.query.get(id)
+        except BaseException as error:
+            raise DatabaseNotResponse.warp(cause=error, message=None)
         return toDo
 
     def remove(self, id):
-        toDo = Todo.query.get(id)
+        toDo = self.getOne(id=id)
         if toDo is not None:
             return self.database.remove(toDo)
         else:
             raise NotFound.warp(
-                error=None, message=f"Resource Todo - {id} wasn't existed"
+                cause=None, message=f"Resource Todo - {id} wasn't existed"
             ).setParams({"idToDo": id})
 
     def update(self, id, data):
-        toDo = Todo.query.get(id)
+        toDo = self.getOne(id)
         if toDo is not None:
-            return self.database.update(toDo, data)
+            return self.database.update(toDo)
         else:
-            return False
+            raise NotFound.warp(
+                cause=None, message=f"Resource Todo - {id} wasn't existed"
+            ).setParams({"idToDo": id})

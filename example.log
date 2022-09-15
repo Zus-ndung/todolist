@@ -246,3 +246,336 @@
 [38;20m[2022-09-13 10:37:23,257] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
 [38;20m[2022-09-13 10:37:38,676] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
 [38;20m[2022-09-13 10:42:23,711] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-13 10:51:02,840] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 01:46:40,061] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 01:46:40,645] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:09:11,327] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:09:51,455] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:09:55,432] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:11:42,505] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:14:05,929] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:14:06,777] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[31;1m[2022-09-14 02:14:24,031] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:14:34,846] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:16:21,131] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:16:57,259] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:17:51,301] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:19:55,589] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:20:59,927] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[38;20m[2022-09-14 02:22:00,507] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:22:47,799] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:23:45,352] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:25:11,042] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:25:33,048] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:26:03,611] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:28:02,076] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:28:09,317] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:28:48,409] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:28:52,384] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[31;1m[2022-09-14 02:29:36,185] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:31:57,250] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:33:56,926] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[38;20m[2022-09-14 02:35:57,254] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 02:36:28,684] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[31;1m[2022-09-14 02:39:01,208] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:44:04,471] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:49:06,814] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:49:28,186] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 02:50:44,923] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:12:24,441] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:12:36,458] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-14 03:12:36,562] - queueLogger - WARNING - ok (Logging.py:117)[0m
+[31;1m[2022-09-14 03:13:06,031] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:14:25,088] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:17:55,495] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:19:14,529] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:19:56,276] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:21:38,186] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:24:48,483] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:26:24,935] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:27:22,915] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:30:21,409] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:30:22,962] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:32:27,536] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:32:34,988] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:34:23,203] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:34:31,827] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:34:31,938] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:34:46,557] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:34:54,794] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:35:02,820] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:35:06,932] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:35:10,803] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:36:43,077] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:36:44,489] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:37:43,798] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:37:47,477] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[38;20m[2022-09-14 03:40:16,056] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[31;1m[2022-09-14 10:40:20,769] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:40:24,520] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[38;20m[2022-09-14 03:41:53,613] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:42:01,903] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:42:08,974] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:42:57,728] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:43:15,589] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:44:32,951] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:44:40,185] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:44:59,283] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:45:00,450] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-14 03:45:01,928] - queueLogger - WARNING - ok1 (Logging.py:117)[0m
+[38;20m[2022-09-14 03:45:10,852] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:45:13,791] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:45:35,948] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:45:41,051] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:45:49,350] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 03:45:52,359] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[31;1m[2022-09-14 03:46:40,585] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:47:10,764] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-14 03:47:20,889] - queueLogger - WARNING - ok1 (Logging.py:117)[0m
+[31;1m[2022-09-14 10:48:07,719] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 10:48:11,416] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-14 10:49:58,914] - queueLogger - WARNING - ok1 (Logging.py:117)[0m
+[31;1m[2022-09-14 03:51:39,449] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:53:27,294] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:53:52,030] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:55:16,283] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:55:52,903] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:56:19,366] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:56:35,465] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:57:01,075] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:58:09,470] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:58:55,963] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 03:59:29,070] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:00:29,786] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:03:25,770] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:03:39,704] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:04:04,327] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:05:18,946] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:05:31,810] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:05:48,987] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:12:10,427] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:12:22,387] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:12:53,476] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:13:29,905] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:14:41,563] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:15:09,850] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:17:24,632] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:19:13,643] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:20:08,178] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-14 04:20:46,655] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[38;20m[2022-09-14 04:25:38,832] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 04:26:12,698] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 04:26:28,474] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 04:33:08,510] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 04:33:16,823] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 04:33:27,239] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 04:33:37,620] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 04:33:49,002] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:46:07,315] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:46:51,778] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:47:20,367] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:47:32,049] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:48:01,639] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:48:06,714] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:48:32,173] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:48:39,409] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:49:14,476] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:49:18,498] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:49:30,998] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:49:51,126] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:50:20,746] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:50:42,922] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:51:02,981] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:51:21,946] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:51:30,228] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:52:13,695] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:52:17,681] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:52:51,521] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:53:50,694] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:54:45,930] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:54:54,220] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:55:10,004] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:55:15,089] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:55:36,030] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-14 07:55:56,071] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 01:46:25,936] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 01:46:26,467] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:09:06,959] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:09:30,133] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:20:57,443] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:20:58,107] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:23:36,217] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:25:04,950] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:25:43,217] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:27:54,492] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:28:24,151] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:35:40,134] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:37:15,888] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:37:22,953] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:37:39,664] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:41:22,928] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 03:56:10,479] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 04:23:17,742] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 06:41:34,770] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 06:44:23,609] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 06:47:47,592] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 06:50:02,696] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 06:56:20,342] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 06:57:18,167] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 06:59:34,614] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:00:17,659] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:00:25,752] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:00:48,701] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:01:52,123] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:02:14,384] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:02:26,892] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:02:42,623] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:02:50,924] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:02:55,937] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:03:08,444] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:03:20,883] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:03:25,861] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:03:45,909] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:04:09,101] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:05:13,317] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:06:19,719] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:07:15,936] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:08:43,539] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:09:00,408] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:13:54,617] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:20:58,116] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:21:09,590] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:21:22,042] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:22:08,753] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 07:44:19,594] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[31;1m[2022-09-15 15:38:28,450] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-15 15:38:55,534] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-15 15:41:29,433] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[38;20m[2022-09-15 08:45:09,586] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[38;20m[2022-09-15 08:45:10,152] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[31;1m[2022-09-15 15:45:25,951] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-15 15:53:20,826] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-15 15:53:29,752] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-15 15:54:51,049] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-15 15:55:33,845] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[31;1m[2022-09-15 15:55:59,795] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-15 08:56:48,728] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 08:56:48,754] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 15:56:52,315] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[31;1m[2022-09-15 15:56:54,622] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-15 15:57:16,505] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[31;1m[2022-09-15 15:57:18,797] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-15 15:57:33,078] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[31;1m[2022-09-15 15:57:35,376] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-15 15:58:14,095] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[31;1m[2022-09-15 15:58:16,392] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-15 15:59:59,422] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[31;1m[2022-09-15 16:00:01,719] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-15 16:00:33,681] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[31;1m[2022-09-15 16:00:35,971] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-15 16:01:52,551] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[31;1m[2022-09-15 16:01:54,837] - queueLogger - CRITICAL - Database wasn't connected (Logging.py:125)[0m
+[33;20m[2022-09-15 09:02:29,859] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:02:29,885] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:02:30,420] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:02:30,446] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:03:04,394] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:03:04,424] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:04:10,073] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:04:10,102] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:04:33,860] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:04:33,893] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:04:55,833] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:04:55,861] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:07:33,732] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:07:33,760] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:07:47,147] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:07:47,175] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:09:02,943] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:09:02,970] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:09:15,453] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:09:15,481] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:09:21,525] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:09:21,553] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:09:35,310] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:09:35,344] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:09:49,613] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:09:49,639] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:18:50,183] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:18:50,210] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:24:56,198] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:24:56,223] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:27:25,600] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:27:25,631] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:28:10,866] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:28:10,892] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:31:03,777] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:31:03,805] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:36:18,491] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:36:18,518] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:36:19,177] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:36:19,204] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:37:10,183] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:37:10,214] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:37:10,939] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:37:10,976] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:38:34,415] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:38:34,441] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:38:35,069] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:38:35,095] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:41:01,109] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:41:01,135] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:41:01,793] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:41:01,820] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:42:23,177] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:42:23,203] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:43:38,042] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:43:38,068] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:43:38,690] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:43:38,716] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:49:05,486] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:49:05,523] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:49:06,282] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:49:06,310] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:59:16,817] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:59:16,851] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 09:59:17,565] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 09:59:17,602] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:01:20,002] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:01:20,057] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:02:54,370] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:02:54,404] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:02:55,145] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:02:55,182] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:06:00,695] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:06:00,731] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:06:01,499] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:06:01,533] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:06:47,208] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:06:47,248] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:06:47,986] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:06:48,021] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:12:46,416] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:12:46,454] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:12:47,185] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:12:47,220] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:13:08,322] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:13:08,362] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:13:09,088] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:13:09,125] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:19:04,351] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:19:04,382] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:19:05,144] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:19:05,173] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:20:43,466] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:20:43,500] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:20:44,188] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:20:44,226] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:27:31,803] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:27:31,838] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:27:32,530] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:27:32,565] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:28:11,851] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:28:11,884] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-15 10:28:12,608] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-15 10:28:12,646] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
