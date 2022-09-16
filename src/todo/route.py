@@ -30,7 +30,8 @@ def create_route(database=BaseStorage, logging=BaseLogging):
 
         try:
             newToDo = toDoUseCase.create(
-                dataRequest["name"], isDone=dataRequest["isDone"])
+                dataRequest["name"], isDone=dataRequest["isDone"]
+            )
             return jsonify(newToDo), status.HTTP_201_CREATED
         except Code as error:
             return jsonify(error.convertToObject()), error.statusCode

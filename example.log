@@ -579,3 +579,57 @@
 [38;20m[2022-09-15 10:28:11,884] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
 [33;20m[2022-09-15 10:28:12,608] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
 [38;20m[2022-09-15 10:28:12,646] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 06:34:05,662] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 06:34:05,890] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 06:34:06,874] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 06:34:06,975] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 06:42:47,343] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 06:42:47,378] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 06:42:48,239] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 06:42:48,272] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 06:44:10,246] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 06:44:10,291] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 06:44:22,696] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 06:44:22,735] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 06:45:20,992] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 06:45:21,024] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 06:45:21,722] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 06:45:21,758] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:26:42,089] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:26:42,123] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:27:29,406] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:27:29,442] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:27:30,141] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:27:30,173] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:28:24,823] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:28:24,858] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:28:25,554] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:28:25,591] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:34:44,928] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:34:44,959] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:34:45,655] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:34:45,692] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:37:25,037] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:37:25,072] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:37:25,782] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:37:25,823] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:38:42,358] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:38:42,389] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:38:43,095] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:38:43,132] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:40:40,095] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:40:40,133] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:40:40,829] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:40:40,864] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:41:37,939] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:41:37,973] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:41:38,674] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:41:38,710] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:54:00,329] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:54:00,361] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:54:01,013] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:54:01,042] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:54:25,193] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:54:25,224] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m
+[33;20m[2022-09-16 07:54:25,880] - queueLogger - WARNING - postgresql://root:root@postgres_db/todo (Logging.py:117)[0m
+[38;20m[2022-09-16 07:54:25,913] - queueLogger - INFO - Connect to database successfully (Logging.py:113)[0m

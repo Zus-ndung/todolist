@@ -24,11 +24,14 @@ DATABASE_HOST = "127.0.0.1"
 DATABASE_USER = "root"
 DATABASE_PASSWORD = "root"
 
+
 [test]
-SQLALCHEMY_DATABASE_URI="postgresql://root:root@postgres_db/todo"
+SQLALCHEMY_DATABASE_URI="postgresql://root:root@localhost:5433/todo"
 SQLALCHEMY_TRACK_MODIFICATIONS = 1
 DATABASE_TYPE = "postgresql"
-SQLALCHEMY_ECHO = 1
+LOGGING_FILE = "logging.yaml"
+TYPE_LOGGING_FILE = "yaml"
+LOGGER = "queueLogger"
 
 
 [tool.black]

@@ -3,10 +3,8 @@ def validateFormPost(dataRequest: dict):
     isDone = dataRequest.get("isDone")
     error = {}
     if not type(name) is str:
-        error["name"] = {"isRequired": True,
-                         "message": "name field is required"}
+        error["name"] = {"isRequired": True, "message": "name field is required"}
 
     if not type(isDone) is bool:
-        error["isDone"] = {"isRequired": True,
-                           "message": "isDone field is required"}
+        error["isDone"] = {"isRequired": True, "message": "isDone field is required"}
     return error, len(error.keys()) == 0

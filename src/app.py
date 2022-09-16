@@ -2,8 +2,8 @@ import sys
 
 from dynaconf import FlaskDynaconf
 from flask_api import FlaskAPI
-from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
+from flask_sqlalchemy import SQLAlchemy
 
 from src.infa.database.Postgresql import Postgresql
 from src.infa.logging.Logging import Logging
@@ -20,7 +20,6 @@ def create_app():
     # create Logger
     with app.app_context():
         logging = Logging()
-
         if (
             app.config["DATABASE_TYPE"] == "postgresql"
             and app.config["SQLALCHEMY_DATABASE_URI"] is not None
@@ -36,8 +35,7 @@ def create_app():
             else:
                 logging.info(message="Connect to database successfully")
         else:
-            logging.critical(
-                message="DATABASE_TYPE or DATABASE_URI isn't configured")
+            logging.critical(message="DATABASE_TYPE or DATABASE_URI isn't configured")
             sys.exit(-1)
 
     # register route of module

@@ -11,3 +11,5 @@ flake8
 pre-commit
 flask-swagger-generator
 Flask-Migrate
+pytest
+pytest-subtests

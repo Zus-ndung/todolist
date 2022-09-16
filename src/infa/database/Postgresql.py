@@ -1,4 +1,3 @@
-
 from src.execption.ecode import DatabaseError
 from src.infa.database.BaseStorage import BaseStorage
 
@@ -45,12 +44,6 @@ class Postgresql(BaseStorage):
             raise DatabaseError.warp(cause=error, message=None)
 
     def __isConnected(self):
-        try:
-            self.db.session.execute("SELECT 1")
-            return True
-        except Exception:
-            return False
-    def isConnected(self):
         try:
             self.db.session.execute("SELECT 1")
             return True
