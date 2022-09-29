@@ -5,7 +5,7 @@ DATABASE_USER = "root"
 DATABASE_PASSWORD = "root"
 
 [development]
-SQLALCHEMY_DATABASE_URI="postgresql://root:root@postgres_db/todo"
+SQLALCHEMY_DATABASE_URI="postgresql://root:root@localhost:5433/todo"
 SQLALCHEMY_TRACK_MODIFICATIONS = 1
 DATABASE_TYPE = "postgresql"
 DATABASE_URI = "dev"
@@ -13,13 +13,48 @@ DATABASE_HOST = "postgres_db"
 DATABASE_USER = "root"
 DATABASE_PASSWORD = "root"
 DATABASE_NAME= "todo"
-LOGGER = "console"
+LOGGER = "queueLogger"
 LOGGING_FILE = "logging.yaml"
 TYPE_LOGGING_FILE = "yaml"
 SQLALCHEMY_ECHO = 1
+BABEL_DEFAULT_LOCALE = "ja"
+BABEL_DEFAULT_TIMEZONE = "Asia/Tokyo"
+CURRENCY_TYPE = "jpy"
+CURRENCY_FORMAT = '#,### ¤¤¤'
+BABEL_TRANSLATION_DIRECTORIES="pkg/i18n"
+MAX_CONTENT_LENGTH = 1000000000000
+UPLOAD_FOLDER = "uploads"
+ALLOWED_EXTENSIONS = "txt,pdf,png,jpg,jpeg,gif,msi,csv,py"
 
 [production]
 DATABASE_URI = "production"
 DATABASE_HOST = "127.0.0.1"
 DATABASE_USER = "root"
 DATABASE_PASSWORD = "root"
+
+
+[test]
+SQLALCHEMY_DATABASE_URI="postgresql://root:root@localhost:5433/todo"
+SQLALCHEMY_TRACK_MODIFICATIONS = 1
+DATABASE_TYPE = "postgresql"
+LOGGING_FILE = "logging.yaml"
+TYPE_LOGGING_FILE = "yaml"
+LOGGER = "queueLogger"
+
+
+[tool.black]
+line-length = 79
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+)/
+'''

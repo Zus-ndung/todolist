@@ -1,10 +1,10 @@
 version: '3.1'
 services:
   flask-server:
-    build: 
+    build:
       context: .
       dockerfile: ./script/Dockerfile
-    
+
     container_name: "flask-server"
     ports:
       - ${PORT}:${PORT}
@@ -13,6 +13,8 @@ services:
     # command: "flask --app www/server --debug run"
     networks:
       - flask-test-network
+    depends_on:
+      - postgres_db
 
   postgres_db:
     image: postgres
@@ -28,18 +30,6 @@ services:
     ports:
       - 5432:5432
 
-  # adminer:
-  #   image: adminer
-  #   depends_on:
-  #     - postgres_db
-  #   ports:
-  #     - 8080:8080
-  #   environment:
-  #     - POSTGRES_USER=${POSTGRES_USER}
-  #     - POSTGRES_PASSWORD=${POSTGRES_PASSWORD}
-  #   networks:
-  #     - flask-test-network
-    
 
 networks:
   flask-test-network:
@@ -47,3 +37,4 @@ networks:
 
 volumes:
   postgres: {}
+  postgres_test: {}

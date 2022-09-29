@@ -1,33 +1,57 @@
 version: 1
-disable_existing_loggers: true
+disable_existing_loggers: false
+
+objects:
+  queue:
+    class: queue.Queue
+    maxsize: 1000
+
 formatters:
   simpleFormatter:
     format: '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
     datefmt: '%d/%m/%Y %H:%M:%S'
-  customFormat:
+  customFormatter:
     '()': src.infa.logging.Logging.CustomFormat
+
+filters:
+  customFilter:
+    '()': src.infa.logging.Logging.CustomFilter
+
 handlers:
   fileHandler:
-    formatter: simpleFormatter
+    formatter: customFormatter
     class: logging.FileHandler
     level: DEBUG
     filename: example.log
+    # mode: w+
   consoleHandler:
-    formatter: customFormat
+    formatter: customFormatter
     class: logging.StreamHandler
     level: DEBUG
     stream: ext://sys.stdout
+    filters:
+      - customFilter
+  queueHandler:
+    class: src.infa.logging.Logging.QueueListenerHandler
+    handlers:
+      - cfg://handlers.consoleHandler
+      - cfg://handlers.fileHandler
+    queue: cfg://objects.queue
 
 loggers:
   file:
-    handlers: [fileHandler]
+    handlers:
+      - fileHandler
   console:
-    handlers: [consoleHandler, fileHandler]
-  sqlalchemy.engine:
-    handlers: [fileHandler]
-    qualname: sqlalchemy.engine
-    propagate: false
-  sqlalchemy.pool:
-    handlers: [fileHandler]
-    qualname: sqlalchemy.pool
+    handlers:
+      - consoleHandler
+  # sqlalchemy.engine:
+  #   handlers:
+  #     - fileHandler
+  #   qualname: sqlalchemy.engine
+  #   propagate: true
+  queueLogger:
+    level: DEBUG
+    handlers:
+      - queueHandler
     propagate: false

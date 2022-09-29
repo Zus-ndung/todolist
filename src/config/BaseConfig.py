@@ -1,2 +1,0 @@
-class BaseConfig:
-    TESTING = True
