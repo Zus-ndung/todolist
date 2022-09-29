@@ -11,7 +11,7 @@ class Code(BaseException):
         self.params = args
         return self
 
-    def warp(self, cause: BaseException, message: str):
+    def warp(self, cause: BaseException, message=""):
         self.error = WithMessage(cause=cause, message=message)
         return self
 

@@ -13,3 +13,4 @@ flask-swagger-generator
 Flask-Migrate
 pytest
 pytest-subtests
+Flask-Babel

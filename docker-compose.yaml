@@ -13,6 +13,8 @@ services:
     # command: "flask --app www/server --debug run"
     networks:
       - flask-test-network
+    depends_on:
+      - postgres_db
 
   postgres_db:
     image: postgres

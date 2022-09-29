@@ -1,3 +1,5 @@
+from flask_babel import gettext
+
 from src.execption.ecode import DatabaseError
 from src.infa.database.BaseStorage import BaseStorage
 
@@ -19,7 +21,7 @@ class Postgresql(BaseStorage):
         self.db.init_app(app=app)
         isConnected = self.__isConnected()
         if not isConnected:
-            raise Exception("Database wasn't connected")
+            raise Exception(gettext("EDB01"))
         return
 
     def remove(self, record):
